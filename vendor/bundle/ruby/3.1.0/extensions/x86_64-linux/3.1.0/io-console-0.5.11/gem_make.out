@@ -1,0 +1,19 @@
+current directory: /home/felipe/RailsProjects/auctions/vendor/bundle/ruby/3.1.0/gems/io-console-0.5.11/ext/io/console
+/home/felipe/.rvm/rubies/ruby-3.1.0/bin/ruby -I /home/felipe/.rvm/rubies/ruby-3.1.0/lib/ruby/3.1.0 -r ./siteconf20220210-8504-qq4j3n.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /home/felipe/RailsProjects/auctions/vendor/bundle/ruby/3.1.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\= clean
+
+current directory: /home/felipe/RailsProjects/auctions/vendor/bundle/ruby/3.1.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\=
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/felipe/RailsProjects/auctions/vendor/bundle/ruby/3.1.0/gems/io-console-0.5.11/ext/io/console
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 console.so ./.gem.20220210-8504-x8o2xi/io
